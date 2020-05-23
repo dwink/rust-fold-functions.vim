@@ -1,3 +1,8 @@
+if exists("g:loaded_rustfold")
+  finish
+endif
+let g:loaded_rustfold = 1
+
 function! MakeRustFuncDefs()
     let b:RustFuncDefs = []
 
